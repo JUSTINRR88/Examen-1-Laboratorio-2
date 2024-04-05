@@ -1,0 +1,5 @@
+.ultima_parte{
+    display: grid;
+    grid-template-rows: 30% 1fr 30%;
+}
+
