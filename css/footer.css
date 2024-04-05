@@ -4,11 +4,27 @@ footer{
     grid-column-end: 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgb(186, 189, 188);
 }
 
 .cont{
     width: 100%;
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+.numero{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    padding: 1rem;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
 }
 

@@ -1,4 +1,18 @@
 .inferior{
     grid-column-start: 1;
     grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.items_medios{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.n1{
+    color: gray;
 }
